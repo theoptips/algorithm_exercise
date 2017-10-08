@@ -1,7 +1,14 @@
+import array
+a = array.array('I', xrange(10**8))
+n = len(a)
+import random
+random.shuffle(a)
+
+
 # Uses python3
-n = int(input())
-a = [int(x) for x in input().split()]
-assert(len(a) == n)
+#n = int(input())
+#a = [int(x) for x in input().split()]
+#assert(len(a) == n)
 
 
 result = 0
